@@ -11,7 +11,7 @@ wget -q --show-progress -O checkpoints/BFM_Fitting.zip https://github.com/Winfre
 wget -q --show-progress -O checkpoints/hub.zip https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/hub.zip
 wget -q --show-progress -O checkpoints/auido2exp_00300-model.pth https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/auido2exp_00300-model.pth
 wget -q --show-progress -O checkpoints/facevid2vid_00189-model.pth.tar https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/facevid2vid_00189-model.pth.tar
-wget -q --show-progress -O checkpoints/shape_predictor_68_face_landmarks.dat.bz2 https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/shape_predictor_68_face_landmarks.dat.bz2
+wget -q --show-progress -O checkpoints/shape_predictor_68_face_landmarks.dat.bz2 http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 wget -q --show-progress -O checkpoints/wav2lip.pth https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/wav2lip.pth
 wget -q --show-progress -O checkpoints/SadTalker_V0.0.2_256.safetensors https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/SadTalker_V0.0.2_256.safetensors
 wget -q --show-progress -O checkpoints/SadTalker_V0.0.2_512.safetensors https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/SadTalker_V0.0.2_512.safetensors
