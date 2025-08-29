@@ -1,0 +1,4 @@
+checkpoints/
+gfpgan/weights/
+src/utils/face3d/weights/
+.env
