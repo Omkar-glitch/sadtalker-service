@@ -7,7 +7,7 @@ mkdir -p checkpoints
 mkdir -p gfpgan/weights
 
 echo "Downloading SadTalker checkpoints..."
-wget -q --show-progress -O checkpoints/BFM_Fitting.zip https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/BFM_Fitting.zip
+wget -q --show-progress -O checkpoints/BFM_Fitting.zip https://github.com/Winfredy/SadTalker/releases/download/v0.0.2/BFM_Fitting.zip
 wget -q --show-progress -O checkpoints/hub.zip https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/hub.zip
 wget -q --show-progress -O checkpoints/auido2exp_00300-model.pth https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/auido2exp_00300-model.pth
 wget -q --show-progress -O checkpoints/facevid2vid_00189-model.pth.tar https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/facevid2vid_00189-model.pth.tar
