@@ -13,13 +13,13 @@ wget -q --show-progress -O checkpoints/auido2exp_00300-model.pth https://github.
 wget -q --show-progress -O checkpoints/facevid2vid_00189-model.pth.tar https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/facevid2vid_00189-model.pth.tar
 wget -q --show-progress -O checkpoints/shape_predictor_68_face_landmarks.dat.bz2 http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 wget -q --show-progress -O checkpoints/wav2lip.pth https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/wav2lip.pth
-wget -q --show-progress -O checkpoints/SadTalker_V0.0.2_256.safetensors https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/SadTalker_V0.0.2_256.safetensors
-wget -q --show-progress -O checkpoints/SadTalker_V0.0.2_512.safetensors https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2/SadTalker_V0.0.2_512.safetensors
+wget -q --show-progress -O checkpoints/SadTalker_V0.0.2_256.safetensors https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2-rc/SadTalker_V0.0.2_256.safetensors
+wget -q --show-progress -O checkpoints/SadTalker_V0.0.2_512.safetensors https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2-rc/SadTalker_V0.0.2_512.safetensors
 
 echo "Downloading GFPGAN models..."
-wget -q --show-progress -O gfpgan/weights/GFPGANv1.4.onnx https://github.com/kenwaytis/faster-SadTalker-API/releases/download/v0.0.2-faster/GFPGANv1.4.onnx
-wget -q --show-progress -O gfpgan/weights/ParseNet-latest.onnx https://github.com/kenwaytis/faster-SadTalker-API/releases/download/v0.0.2-faster/ParseNet-latest.onnx
-wget -q --show-progress -O gfpgan/weights/detection_Resnet50_Final.onnx https://github.com/kenwaytis/faster-SadTalker-API/releases/download/v0.0.2-faster/detection_Resnet50_Final.onnx
+wget -q --show-progress -O gfpgan/weights/GFPGANv1.4.onnx https://huggingface.co/Gourieff/ReActor/resolve/main/models/facerestore_models/GFPGANv1.4.onnx
+wget -q --show-progress -O gfpgan/weights/ParseNet-latest.onnx https://github.com/yakhyo/face-parsing/releases/download/v0.0.1/resnet18.onnx
+wget -q --show-progress -O gfpgan/weights/detection_Resnet50_Final.onnx https://github.com/yakyo/facial-analysis/raw/main/weights/w600k_r50.onnx
 
 echo "Extracting models..."
 unzip -o checkpoints/BFM_Fitting.zip -d checkpoints/
